@@ -9,27 +9,28 @@
 _This website receives a string from the user and changes the beginning letter of each word to upper case. The code is tested with PHPUnit._
 
 ## Specifications
-    1. program will ignore numbers.
-    * input example: 27 words
-    * output example: 27 words
-    2. program will capitalize the first letter of a single word.  
+    1. program will capitalize the first letter of a single word.  
     * input example: word
     * output example: word
-    3. program will capitalize each letter for multiple words.
+    2. program will capitalize each letter for multiple words.
     * input example: word or words
     * output example: Word Or Words
-    4. program will not capitalize words that are prepositions or conjunctions.
-    * input example: word or words
-    * output example: Word or words
-    5. program will capitalize words that are prepositions or conjunctions if they are at the beginning of the sentance.
-    * input example: the word or words
-    * output example: The Word or words
-    6. program will change words that have all capitalized letters correctly.
+    3. program will ignore numbers.
+    * input example: 27 words
+    * output example: 27 words
+    4. program will change words that have all capitalized letters correctly.
     * input example: WORD
     * output example: Word
-    7. program will handle words that have some capitalized letters mixed through the word.
-    *input example: wORd OR words
-    *output example: Word or Words
+    5. program will handle words that have some capitalized letters mixed through the word.
+    * input example: wORd OR words
+    * output example: Word or Words
+    6. program will not capitalize words that are prepositions or conjunctions.
+    * input example: word or words
+    * output example: Word or words
+    7. program will capitalize words that are prepositions or conjunctions if they are at the beginning of the sentance.
+    * input example: the word or words
+    * output example: The Word or Words
+
 
 ## Setup/Installation Requirements
 

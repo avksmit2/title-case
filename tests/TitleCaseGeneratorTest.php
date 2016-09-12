@@ -3,24 +3,14 @@
 
     class TitleCaseGeneratorTest extends PHPUnit_Framework_TestCase
     {
-        function test_makeTitleCase_oneWord()
+        function test_makeTitleCase_firstWord()
         {
             $test_TitleCaseGenerator = new TitleCaseGenerator;
-            $input = "word";
+            $input = "tHe woRD OR 27 wOrds";
 
             $result = $test_TitleCaseGenerator->makeTitleCase($input);
 
-            $this->assertEquals("Word", $result);
-        }
-
-        function test_makeTitleCase_multipleWords()
-        {
-            $test_TitleCaseGenerator = new TitleCaseGenerator;
-            $input = "word or words";
-
-            $result = $test_TitleCaseGenerator->makeTitleCase($input);
-
-            $this->assertEquals("Word Or Words", $result);
+            $this->assertEquals("The Word or 27 Words", $result);
         }
     }
 ?>
