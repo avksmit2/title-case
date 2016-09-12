@@ -5,7 +5,7 @@
         {
             $input_array_or_words = explode(" ", $input_title);
             $output_titlecased = array();
-            $special_word_array = array("in", "or", "and", "the", "a", "then", "for", "but", "so", "yet", "as", "at", "into");
+            $special_word_array = array("in", "or", "and", "the", "a", "then", "for", "but", "so", "yet", "as", "at", "into", "is", "to");
             $i=0;
             foreach ($input_array_or_words as $word) {
                 $word = strtolower($word);
